@@ -1,0 +1,7 @@
+Route::resource('$MODEL_NAME_PLURAL_CAMEL$', '$MODEL_NAME$Controller');
+
+//you can delete this if you don't want to use deletion without DELETE method
+Route::get('$MODEL_NAME_PLURAL_CAMEL$/{id}/delete', [
+    'as' => '$MODEL_NAME_PLURAL_CAMEL$.delete',
+    'uses' => '$MODEL_NAME$Controller@destroy',
+]);

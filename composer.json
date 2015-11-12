@@ -1,0 +1,32 @@
+{
+    "name": "maztch/laravel-generator",
+    "description": "Laravel API/Scaffold/CRUD Generator based on Mitul Golakiya (me@mitul.me).",
+    "keywords": [
+        "laravel",
+        "api",
+        "model",
+        "migration",
+        "scaffold",
+        "CRUD",
+        "generator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maztch",
+            "email": "info@maztch.es"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maztch\\": "src/Maztch/"
+        }
+    },
+    "suggest": {
+        "doctrine/dbal": "Required to use generator from existing table."
+    }
+}
