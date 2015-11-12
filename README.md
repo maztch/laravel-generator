@@ -85,4 +85,4 @@ Mainly, we need to do three basic things to get started.
 2. Publish ```api_routes.php``` which will contain all our api routes.
 3. Init ```routes.php``` for api routes. We need to include ```api_routes.php``` into main ```routes.php```.
 
-        php artisan mitul.generator:publish
+        php artisan maztch.generator:publish
