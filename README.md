@@ -47,7 +47,7 @@ While we write the docs you can take a look to [Mitul repo](https://github.com/m
         ],
         "require": {
             "laracasts/flash": "dev-master",
-            "laravelcollective/html": "5.1.*@dev",
+            "laravelcollective/html": "5.2.*@dev",
             "bosnadev/repositories": "dev-master",
             "maztch/laravel-generator": "dev-master"
         }
