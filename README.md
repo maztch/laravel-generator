@@ -1,4 +1,4 @@
-Laravel5 Generator (Laravel5.1)
+Laravel5 Generator (Laravel5.2)
 =======================
 
 Based on Maztch generator, this is a more simple scaffold and just need to be used in dev.
