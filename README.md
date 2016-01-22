@@ -56,19 +56,21 @@ While we write the docs you can take a look to [Mitul repo](https://github.com/m
 
         composer update
     
-3. Add the ServiceProviders to the providers array in ```config/app.php```.<br>
-   As we are using these two packages [laravelcollective/html](https://github.com/LaravelCollective/html) & [laracasts/flash](https://github.com/laracasts/flash) as a dependency.<br>
-   so we need to add those ServiceProviders as well.
+3. Add the ServiceProviders to the providers array in ```config/app.php```.
 
-    Collective\Html\HtmlServiceProvider::class,
-    Laracasts\Flash\FlashServiceProvider::class,
-    Maztch\Generator\GeneratorServiceProvider::class,
+As we are using these two packages [laravelcollective/html](https://github.com/LaravelCollective/html) & [laracasts/flash](https://github.com/laracasts/flash) as a dependency.
+
+So we need to add those ServiceProviders as well.
+
+        Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        Maztch\Generator\GeneratorServiceProvider::class,
         
-   Also for convenience, add these facades in alias array in ```config/app.php```.
+Also for convenience, add these facades in alias array in ```config/app.php```.
 
-    'Form'      => Collective\Html\FormFacade::class,
-    'Html'      => Collective\Html\HtmlFacade::class,
-    'Flash'     => Laracasts\Flash\Flash::class
+        'Form'      => Collective\Html\FormFacade::class,
+        'Html'      => Collective\Html\HtmlFacade::class,
+        'Flash'     => Laracasts\Flash\Flash::class
 
 
 ## Configuration
@@ -81,6 +83,7 @@ Publish Configuration file ```generator.php```.
 ## Publish & Initialization
 
 Mainly, we need to do three basic things to get started.
+
 1. Publish some common views like ```errors.blade.php``` & ```paginate.blade.php```.
 2. Publish ```api_routes.php``` which will contain all our api routes.
 3. Init ```routes.php``` for api routes. We need to include ```api_routes.php``` into main ```routes.php```.
