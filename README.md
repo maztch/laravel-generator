@@ -1,11 +1,15 @@
 Laravel5 Generator (Laravel5.2)
 =======================
 
-Based on Maztch generator, this is a more simple scaffold and just need to be used in dev.
+Other versions:
+
+5.1.*    | [1.0](https://github.com/maztch/laravel-generator/tree/1.0)
+
+Based on Mitul generator, this is a more simple scaffold and just need to be used in dev.
 
 I did this beacuse i need more simple generator and keep all out the repo dependencies in production.
 
-Diferences with maztch: 
+Diferences with Mitul: 
 
 There are no Requests and there are no Library/Repositories
 Base controller is removed (Maztch/Controller/AppBaseController)
@@ -32,7 +36,7 @@ The artisan command can generate the following items:
 Documentation
 --------------
 
-While we write the docs you can take a look to [Mitul repo](https://github.com/mitulgolakiya/laravel-api-generator/readme.md).
+While we write the docs you can take a look to [Mitul repo](https://github.com/mitulgolakiya/laravel-api-generator).
 
 
 ## Installation
